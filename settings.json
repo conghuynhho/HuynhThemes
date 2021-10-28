@@ -37,9 +37,10 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
-    "initialCols": 100,
-    "initialRows": 25,
+    "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+    "initialCols": 57,
+    "initialRows": 15,
+    "launchMode": "default",
     "profiles": 
     {
         "defaults": {},
@@ -61,6 +62,7 @@
                 "name": "Windows PowerShell",
                 "padding": "5, 10, 0, 0",
                 "snapOnInput": true,
+                "startingDirectory": "F:\\Projects",
                 "useAcrylic": true
             },
             {
@@ -97,22 +99,8 @@
             },
             {
                 "acrylicOpacity": 0.75,
+                "bellStyle": "none",
                 "closeOnExit": "graceful",
-                "colorScheme": "Dracula",
-                "font": 
-                {
-                    "face": "CaskaydiaCove Nerd Font"
-                },
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "hidden": false,
-                "historySize": 9001,
-                "name": "Ubuntu-20.04",
-                "padding": "5, 30, 0, 0",
-                "snapOnInput": true,
-                "source": "Windows.Terminal.Wsl",
-                "useAcrylic": true
-            },
-            {
                 "colorScheme": "Huynh DepTrai",
                 "font": 
                 {
@@ -120,10 +108,14 @@
                     "size": 20,
                     "weight": "bold"
                 },
-                "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
-                "name": "Super Kali",
-                "source": "Windows.Terminal.Wsl"
+                "historySize": 9001,
+                "name": "Ubuntu-20.04",
+                "snapOnInput": true,
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "F:\\Projects",
+                "useAcrylic": true
             }
         ]
     },
